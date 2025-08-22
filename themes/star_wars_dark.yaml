@@ -1,0 +1,297 @@
+# Creator: Stormrage
+# Website: https://stormrage.nl
+Star Wars Dark:
+  # Global variables
+  primary-font-family: "'Roboto'"
+  theme-mid-gray-color: rgb(145,145,145)
+  theme-mid-gray-color-a: rgba(145,145,145,0.5)
+  theme-gold-color: rgb(204,158,66)
+  theme-vibrant-gold-color: rgb(255,165,0)
+  theme-bright-gold-color: rgb(255,248,198)
+  theme-dark-gold-color: rgb(125,120,76)
+  theme-dark-gold-color-a: rgba(125,120,76,0.2)
+  theme-very-dark-gray-color: rgb(13,13,13)
+  theme-very-dark-gray-color-a: rgba(13,13,13,0.7)
+  theme-very-dark-gray-color2: rgb(29,29,29)
+  theme-dark-gray-color: rgb(36,36,36)
+  theme-dark-gray-color-a: rgba(36,36,36,0.7)
+  theme-light-gray-color: rgb(240,238,231)
+  theme-label-badge-red: rgb(208, 101, 104)
+  theme-label-badge-green: rgb(128, 200, 132)
+  theme-label-badge-blue: rgb(138, 180, 248)
+  theme-label-badge-yellow: "var(--theme-gold-color)" #rgb(223, 194, 113)
+  theme-label-badge-gray: "var(--theme-mid-gray-color)" #rgb(95, 98, 103)
+  primary-background: "url()"
+  background-image: "top center / auto no-repeat url('') fixed" #"top center / auto no-repeat url('/local/images/star_wars_dark_bg.png') fixed"
+  background-gradient: "var(--background-image),
+    linear-gradient(180deg, rgb(45,45,45) 0%,
+    var(--theme-very-dark-gray-color) 55px,
+    var(--theme-gold-color) 57px,
+    var(--theme-very-dark-gray-color) 58px,
+    var(--theme-very-dark-gray-color2) 60px,
+    var(--theme-very-dark-gray-color) 100%"
+  # Lovelace:
+  lovelace-background: "var(--background-gradient)"
+  # Header:
+  app-header-background-color: "var(--theme-very-dark-gray-color)"
+  app-header-text-color: "var(--theme-mid-gray-color)"
+  app-header-selection-bar-color: "var(--theme-bright-gold-color)"
+  app-header-edit-background-color: "var(--theme-very-dark-gray-color)"
+  app-header-edit-text-color: "var(--theme-gold-color)"
+  mdc-theme-on-primary: "var(--theme-dark-gray-color)"
+  # Main Interface Colors
+  primary-color: "var(--theme-gold-color)"
+  primary-background-color: "var(--theme-very-dark-gray-color)"
+  secondary-background-color: "var(--theme-dark-gray-color)"
+  divider-color: "var(--primary-background-color)"
+  accent-color: "var(--primary-color)"
+  text-accent-color: "var(--theme-very-dark-gray-color)"
+  # Text
+  primary-text-color: "var(--theme-light-gray-color)"
+  secondary-text-color: "var(--theme-gold-color)"
+  text-primary-color: "var(--primary-text-color)"
+  disabled-text-color: "var(--theme-mid-gray-color-a)"
+  # Sidebar Menu
+  sidebar-background-color: "var(--theme-very-dark-gray-color)"
+  sidebar-icon-color: "var(--theme-mid-gray-color)"
+  sidebar-selected-background-color: "var(--theme-dark-gold-color)"
+  sidebar-selected-icon-color: "var(--theme-gold-color)"
+  sidebar-selected-color: "var(--theme-gold-color)"
+  sidebar-selected-text-color: "var(--theme-gold-color)"
+  sidebar-color: "var(--theme-dark-gray-color)"
+  sidebar-text-color: "var(--theme-mid-gray-color)"
+  # Buttons
+  paper-item-icon-color: "var(--theme-mid-gray-color)"
+  paper-item-icon-active-color: "var(--theme-gold-color)"
+  mdc-button-outline-color: "var(--theme-gold-color)"
+  # States and Badges
+  state-color: "var(--theme-mid-gray-color)"
+  state-on-color: "var(--theme-vibrant-gold-color)"
+  state-active-color: "var(--state-on-color)"
+  state-open-color: "var(--state-on-color)"
+  state-binary_sensor-on-color: "var(--state-on-color)"
+  state-switch-on-color: "var(--state-on-color)"
+  state-light-on-color: "var(--state-on-color)"
+  state-icon-color: "var(--paper-item-icon-color)"
+  state-icon-active-color: "var(--paper-item-icon-active-color)"
+  state-icon-unavailable-color: "var(--disabled-text-color)"
+  # Sliders
+  paper-slider-knob-color: "var(--theme-gold-color)"
+  paper-slider-knob-start-color: "var(--paper-slider-knob-color)"
+  paper-slider-pin-color: "var(--paper-slider-knob-color)"
+  paper-slider-active-color: "var(--paper-slider-knob-color)"
+  paper-slider-secondary-color: "var(--theme-light-gray-color)"
+  # Labels
+  label-badge-background-color: "var(--secondary-background-color)"
+  label-badge-text-color: "var(--primary-text-color)"
+  label-badge-red: "var(--theme-label-badge-red)"
+  label-badge-green: "var(--theme-label-badge-green)"
+  label-badge-blue: "var(--theme-label-badge-blue)"
+  label-badge-yellow: "var(--theme-label-badge-yellow)"
+  label-badge-gray: "var(--theme-label-badge-gray)"
+  # Cards
+  card-background-color: "var(--theme-dark-gray-color-a)"
+  ha-card-background: "var(--theme-dark-gray-color-a)"
+  ha-card-border-color: "var(--theme-dark-gold-color-a)"
+  ha-card-border-radius: "12px"
+  ha-card-border-width: "0px"
+  ha-card-header-font-size: ""
+  paper-dialog-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--card-background-color)
+  paper-card-background-color: var(--card-background-color)
+  # Switches
+  switch-checked-button-color: "var(--theme-gold-color)"
+  # switch-checked-color: "var(--theme-gold-color)"
+  switch-checked-track-color: "var(--theme-dark-gold-color)"
+  switch-unchecked-button-color: "var(--theme-light-gray-color)"
+  #switch-unchecked-color: "var(--theme-very-dark-gray-color)"
+  switch-unchecked-track-color: "var(--theme-mid-gray-color)"
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  # Table
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  data-table-background-color: var(--primary-background-color)
+  # Dropdowns
+  material-background-color: var(--table-row-background-color)
+  material-secondary-background-color: var(--table-row-alternative-background-color)
+  mdc-theme-surface: var(--secondary-background-color)
+  # Pre/Code
+  markdown-code-background-color: "var(--theme-very-dark-gray-color)"
+  code-editor-background-color: "var(--theme-very-dark-gray-color)"
+  # Checkboxes
+  mdc-checkbox-unchecked-color: "var(--theme-light-gray-color)"
+  mdc-checkbox-disable-color: var(--disabled-text-color)
+  mdc-select-fill-color: "var(--theme-very-dark-gray-color)"
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--accent-color)
+  mdc-text-field-fill-color: var(--mdc-select-fill-color)
+  # Input
+  input-fill-color: var(--secondary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--secondary-text-color)
+  input-idle-line-color: var(--primary-text-color)
+  input-hover-line-color: var(--accent-color)
+  # RGB
+  rgb-primary-text-color: 240, 238, 231
+  rgb-primary-color: 204, 158, 66
+
+# card-mod
+  card-mod-theme: Star Wars Dark
+
+  card-mod-root: |
+    app-toolbar {
+    }
+
+  card-mod-view: |
+    #view {
+      background: top center / auto no-repeat url('/local/images/star_wars_dark_bg.png') !important;
+    }
+
+  card-mod-sidebar: |
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .menu .title {
+      color: var(--theme-bright-gold-color);
+      font-family: var(--primary-font-family);
+      font-weight: bold;
+      margin-top: 4px;
+      text-shadow: 0 0 0 transparent, 
+                  0 0 10px var(--theme-bright-gold-color), 
+                  0 0 20px var(--theme-bright-gold-color);
+      text-transform: uppercase;
+    }
+
+    .menu ha-icon-button {
+      color: var(--theme-bright-gold-color) !important;
+    }
+
+    paper-icon-item span,
+    paper-icon-item:hover span {
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    paper-icon-item:hover span,
+    paper-icon-item:hover ha-icon,
+    paper-icon-item:hover ha-svg-icon,
+    a[aria-selected=true] paper-icon-item span,
+    a[aria-selected=true] paper-icon-item ha-icon,
+    a[aria-selected=true] paper-icon-item ha-svg-icon {
+      color: var(--theme-bright-gold-color);
+      font-weight: bold;
+      text-shadow: 0 0 0 transparent, 
+                  0 0 10px var(--theme-bright-gold-color);
+    }
+
+    paper-icon-item:hover ha-icon,
+    paper-icon-item:hover ha-svg-icon,
+    a[aria-selected=true] paper-icon-item ha-icon,
+    a[aria-selected=true] paper-icon-item ha-svg-icon {
+      animation: blink 250ms infinite alternate
+    }
+
+    paper-icon-item {
+      background-color: var(--theme-dark-gray-color);
+      border-radius: 1px !important;
+      clip-path: polygon(
+        0px calc(100% - 7px),
+        1px calc(100% - 9px),
+        1px calc(100% - 20px),
+        0px calc(100% - 22px),
+        0px 0px,
+        100% 0px, 
+        100% calc(100% - 10px), 
+        calc(100% - 10px) 100%, 
+        0px 100%
+      );
+    }
+
+    paper-icon-item:before {
+      background: var(--theme-dark-gray-color);
+      clip-path: polygon(
+        5px 0px,
+        100% 0px, 
+        100% calc(100% - 10px), 
+        calc(100% - 10px) 100%, 
+        5px 100%
+      );
+      content: '';
+      display: block;
+      height: calc(100% - 2px);
+      left: 1px;
+      position: absolute;
+      top: 1px;
+      width: calc(100% - 2px);
+      z-index: -1;
+    }
+
+    paper-icon-item,
+    paper-icon-item:before {
+      transition: background-color 100ms ease-out, color 100ms ease-out; 
+    }
+
+    paper-icon-item:after {
+      background-color: var(--theme-dark-gray-color);
+      content: '';
+      display: block;
+      height: 100%;
+      left: 5px;
+      position: absolute;
+      top: 0px;
+      width: 1px;
+    }
+
+    paper-icon-item:hover,
+    paper-icon-item:hover:after,
+    a[aria-selected=true] paper-icon-item,
+    a[aria-selected=true] paper-icon-item:after {
+      color: var(--theme-bright-gold-color); 
+      background-color: var(--theme-bright-gold-color); 
+    }
+
+    paper-icon-item:hover:before {
+      background-color: var(--theme-dark-gray-color);
+    }
+
+    .iron-selected paper-icon-item:focus::before,
+    paper-icon-item:focus:before,
+    paper-icon-item:focus:before,
+    a[aria-selected=true] paper-icon-item:before {
+      background-color: var(--theme-dark-gold-color); 
+    }
+
+    .iron-selected paper-icon-item:focus::before,
+    paper-icon-item:hover:before,
+    paper-icon-item:focus:before,
+    a[aria-selected=true] paper-icon-item:before {
+      border-radius: 1px;
+      position: absolute;
+      inset: 1px 1px;
+      pointer-events: none;
+      content: "";
+      will-change: auto;
+      opacity: 1 !important;
+    }
+
+    div.tooltip {
+      color: var(--theme-very-dark-gray-color);
+      background-color: var(--theme-bright-gold-color);
+    }
