@@ -95,13 +95,13 @@ Star Wars Dark:
   ha-card-border-color: "var(--theme-dark-gold-color-a)"
   ha-card-border-radius: "12px"
   ha-card-border-width: "0px"
-  ha-card-header-font-size: ""
+  #ha-card-header-font-size: ""
   paper-dialog-background-color: var(--card-background-color)
-  paper-listbox-background-color: var(--card-background-color)
+  #paper-listbox-background-color: var(--card-background-color)
   paper-card-background-color: var(--card-background-color)
   # Switches
   switch-checked-button-color: "var(--theme-gold-color)"
-  # switch-checked-color: "var(--theme-gold-color)"
+  #switch-checked-color: "var(--theme-gold-color)"
   switch-checked-track-color: "var(--theme-dark-gold-color)"
   switch-unchecked-button-color: "var(--theme-light-gray-color)"
   #switch-unchecked-color: "var(--theme-very-dark-gray-color)"
