@@ -153,7 +153,7 @@ Star Wars Dark:
   card-mod-view: |
     #view {
       ### alternatively you can use local background if your HA is not connected to the net: /local/images/star_wars_dark_bg.png
-      background: top center / auto no-repeat url('https://raw.githubusercontent.com/Stormrage-DJ/ha_theme_star_wars_light/main/assets/star_wars_dark_bg.png') !important;
+      background: top center / auto no-repeat url('https://raw.githubusercontent.com/Stormrage-DJ/ha_theme_star_wars_dark/main/assets/star_wars_dark_bg.png') !important;
     }
 
   card-mod-sidebar: |
